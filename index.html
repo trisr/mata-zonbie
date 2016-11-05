@@ -4,18 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Mata Zonbie</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
-    <div class="top-bar">
-      <div class="top-bar-title">
-        <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-          <button class="menu-icon dark" type="button" data-toggle></button>
-        </span>
+    <div id="nav-bar" class="top-bar">
+      <div class="row nav-container">
+        <div class="top-bar-title">
+          <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <button class="menu-icon dark" type="button" data-toggle></button>
+          </span>
+        </div>
+        <strong class="nav-content large-2 columns"><img src="images/logo.png" alt="mata-zonbie-logo" /></strong>
+        <div id="responsive-menu" class="large-10 columns">
+          <ul class="dropwdown menu row" data-dropdown-menu>
+            <li class="nav-menu large-2 columns">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav-menu large-2 columns">
+              <a href="#">Explore</a>
+            </li>
+            <li class="large-4 columns">
+              <input type="search" placeholder="Cari di Sini" />
+            </li>
+            <li class="large-2 columns">
+              <button type="button" class="button">Upload</button>
+            </li>
+            <li class="large-2 columns">
+              <img src="images/icn-user.png" alt="icon-user" />
+            </li>
+          </ul>
+        </div>
       </div>
-      <strong><img src="images/logo.png" alt="mata-zonbie-logo" /></strong>
     </div>
     <div class="row">
       <div class="large-12 columns">
