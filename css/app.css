@@ -7,15 +7,15 @@ body {
   height: 80px;
   padding: 0; }
   #nav-bar .nav-container {
-    height: 100%;
-    position: relative; }
+    height: 100%; }
     #nav-bar .nav-container .nav-content {
       position: relative;
       top: 50%;
       transform: translateY(-50%); }
+    #nav-bar .nav-container .top-bar-left, #nav-bar .nav-container .top-bar-right {
+      height: 100%; }
   #nav-bar #responsive-menu {
-    height: 100%;
-    position: relative; }
+    height: 100%; }
 
 .top-bar ul {
   background: white;
@@ -24,26 +24,38 @@ body {
     color: #999;
     height: 100%; }
   .top-bar ul li {
-    padding-bottom: 20px;
-    padding-top: 20px; }
+    height: 100%; }
     .top-bar ul li.nav-menu:hover {
-      border-bottom: 3px solid #be1e2d; }
+      box-shadow: 0 5px 0 0 #be1e2d; }
       .top-bar ul li.nav-menu:hover a {
         color: #be1e2d; }
   .top-bar ul a {
     font-size: 16px;
     font-weight: 500;
+    height: 80px;
+    padding: 30px 25px;
     text-align: center;
     text-transform: uppercase; }
     .top-bar ul a:hover {
       color: #be1e2d; }
-.top-bar input {
+.top-bar .top-bar-right li {
+  padding: 20px; }
+.top-bar .top-bar-right input {
   background: url("../images/search.png") no-repeat 92% center;
   border: 1px solid #ccc;
   border-radius: 100px;
   font-size: 14px;
   margin-right: 0;
   max-width: 100%;
-  padding: 10px 20px; }
+  padding: 10px 20px;
+  width: 350px; }
+.top-bar .top-bar-right button {
+  border-radius: 100px;
+  padding: 12px 30px;
+  text-transform: uppercase; }
+.top-bar .top-bar-right img {
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  padding: 5px; }
 
 /*# sourceMappingURL=app.css.map */
