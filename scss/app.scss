@@ -14,12 +14,13 @@ body {
 
   .nav-container {
     height: 100%;
-    // position: relative;
 
-    .nav-content {
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
+    @media screen and (min-width: 64em) {
+      .nav-content {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
     }
 
     .top-bar-left, .top-bar-right {
@@ -29,7 +30,6 @@ body {
 
   #responsive-menu {
     height: 100%;
-    // position: relative;
   }
 }
 
@@ -95,6 +95,49 @@ body {
       border-radius: 50%;
       border: 1px solid #ccc;
       padding: 5px;
+    }
+  }
+}
+
+#main-body {
+  padding-bottom: 25px;
+  padding-top: 25px;
+
+  #premium-content {
+    img {
+      height: 340px;
+
+      &.split {
+        height: 160px;
+
+        &:first-child {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .top-bar-title {
+    padding: 10px;
+  }
+
+  #nav-bar {
+    height: initial;
+
+    .nav-container {
+      .nav-content {
+        width: inherit;
+      }
+    }
+  }
+
+  .top-bar {
+    .top-bar-right {
+      input {
+        width: 100%;
+      }
     }
   }
 }

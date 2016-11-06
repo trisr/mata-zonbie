@@ -8,10 +8,11 @@ body {
   padding: 0; }
   #nav-bar .nav-container {
     height: 100%; }
-    #nav-bar .nav-container .nav-content {
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%); }
+    @media screen and (min-width: 64em) {
+      #nav-bar .nav-container .nav-content {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); } }
     #nav-bar .nav-container .top-bar-left, #nav-bar .nav-container .top-bar-right {
       height: 100%; }
   #nav-bar #responsive-menu {
@@ -57,5 +58,27 @@ body {
   border-radius: 50%;
   border: 1px solid #ccc;
   padding: 5px; }
+
+#main-body {
+  padding-bottom: 25px;
+  padding-top: 25px; }
+  #main-body #premium-content img {
+    height: 340px; }
+    #main-body #premium-content img.split {
+      height: 160px; }
+      #main-body #premium-content img.split:first-child {
+        margin-bottom: 20px; }
+
+@media screen and (max-width: 39.9375em) {
+  .top-bar-title {
+    padding: 10px; }
+
+  #nav-bar {
+    height: initial; }
+    #nav-bar .nav-container .nav-content {
+      width: inherit; }
+
+  .top-bar .top-bar-right input {
+    width: 100%; } }
 
 /*# sourceMappingURL=app.css.map */
