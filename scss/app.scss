@@ -1,6 +1,10 @@
 $color-primary: #be1e2d;
 $color-secondary: #999;
 $color-tertier: #ddd;
+$color-blue: #0076ff;
+$color-light-blue: #009398;
+$color-red: #ea1e53;
+$color-orange: #ff9600;
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -104,15 +108,67 @@ body {
   padding-top: 25px;
 
   #premium-content {
+    .content {
+      position: relative;
+    }
+
     img {
       height: 340px;
+    }
 
-      &.split {
+    .split {
+      img {
         height: 160px;
+      }
 
-        &:first-child {
-          margin-bottom: 20px;
+      &:first-child {
+        margin-bottom: 10px;
+      }
+
+      &:last-child {
+        margin-top: 10px;
+      }
+    }
+
+    .meta {
+      bottom: 0;
+      padding: 20px;
+      position: absolute;
+
+      .category {
+        border-radius: 100px;
+        color: white;
+        font-size: 11px;
+        font-weight: bold;
+        opacity: 0.6;
+        padding: 5px 10px;
+        text-transform: uppercase;
+
+        &.bikers {
+          background: $color-blue;
         }
+
+        &.biker {
+          background: $color-light-blue;
+        }
+
+        &.community {
+          background: $color-orange;
+        }
+
+        &.motorcycle {
+          background: $color-red;
+        }
+      }
+
+      h2 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.4;
+        margin-bottom: 0;
+        margin-top: 10px;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
       }
     }
   }
@@ -137,6 +193,14 @@ body {
     .top-bar-right {
       input {
         width: 100%;
+      }
+    }
+  }
+
+  #main-body {
+    #premium-content {
+      .content {
+        margin-bottom: 20px;
       }
     }
   }

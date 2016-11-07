@@ -62,12 +62,44 @@ body {
 #main-body {
   padding-bottom: 25px;
   padding-top: 25px; }
+  #main-body #premium-content .content {
+    position: relative; }
   #main-body #premium-content img {
     height: 340px; }
-    #main-body #premium-content img.split {
-      height: 160px; }
-      #main-body #premium-content img.split:first-child {
-        margin-bottom: 20px; }
+  #main-body #premium-content .split img {
+    height: 160px; }
+  #main-body #premium-content .split:first-child {
+    margin-bottom: 10px; }
+  #main-body #premium-content .split:last-child {
+    margin-top: 10px; }
+  #main-body #premium-content .meta {
+    bottom: 0;
+    padding: 20px;
+    position: absolute; }
+    #main-body #premium-content .meta .category {
+      border-radius: 100px;
+      color: white;
+      font-size: 11px;
+      font-weight: bold;
+      opacity: 0.6;
+      padding: 5px 10px;
+      text-transform: uppercase; }
+      #main-body #premium-content .meta .category.bikers {
+        background: #0076ff; }
+      #main-body #premium-content .meta .category.biker {
+        background: #009398; }
+      #main-body #premium-content .meta .category.community {
+        background: #ff9600; }
+      #main-body #premium-content .meta .category.motorcycle {
+        background: #ea1e53; }
+    #main-body #premium-content .meta h2 {
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.4;
+      margin-bottom: 0;
+      margin-top: 10px;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
 
 @media screen and (max-width: 39.9375em) {
   .top-bar-title {
@@ -79,6 +111,9 @@ body {
       width: inherit; }
 
   .top-bar .top-bar-right input {
-    width: 100%; } }
+    width: 100%; }
+
+  #main-body #premium-content .content {
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=app.css.map */
