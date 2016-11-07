@@ -124,6 +124,45 @@ body {
   .post-card .read-more {
     color: #999;
     cursor: pointer; }
+    .post-card .read-more:hover {
+      color: #0076ff; }
+
+.meta-like-comments {
+  list-style: none;
+  margin: 0;
+  padding-top: 20px; }
+  .meta-like-comments li {
+    color: #999;
+    cursor: pointer;
+    display: inline-block; }
+    .meta-like-comments li .like {
+      background: url("../images/icon-like.png") 0 0 no-repeat;
+      display: inline-block;
+      height: 25px;
+      vertical-align: sub;
+      width: 25px; }
+    .meta-like-comments li .dislike {
+      background: url("../images/icon-dislike.png") 0 0 no-repeat;
+      display: inline-block;
+      height: 25px;
+      vertical-align: top;
+      width: 25px; }
+    .meta-like-comments li .comments {
+      background: url("../images/icon-comments.png") 0 0 no-repeat;
+      display: inline-block;
+      height: 25px;
+      vertical-align: top;
+      width: 25px; }
+    .meta-like-comments li:hover {
+      color: #333; }
+      .meta-like-comments li:hover .like {
+        background: url("../images/icon-like.png") -29px 0 no-repeat; }
+      .meta-like-comments li:hover .dislike {
+        background: url("../images/icon-dislike.png") -29px 0 no-repeat; }
+      .meta-like-comments li:hover .comments {
+        background: url("../images/icon-comments.png") -29px 0 no-repeat; }
+    .meta-like-comments li:nth-child(2) {
+      margin: 0 20px; }
 
 @media screen and (max-width: 39.9375em) {
   .top-bar-title {
