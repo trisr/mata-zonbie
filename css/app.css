@@ -102,6 +102,163 @@ body {
         margin-bottom: 0;
         margin-top: 10px;
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+  #main-body #reading-container {
+    border-bottom: 1px solid #ccc;
+    margin-right: 20px; }
+    #main-body #reading-container .main-img {
+      width: 100%; }
+    #main-body #reading-container h3 {
+      color: #be1e2d;
+      font-size: 11px;
+      font-weight: 900;
+      margin-top: 20px;
+      text-transform: uppercase; }
+    #main-body #reading-container h2 {
+      color: #12162d;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.3; }
+    #main-body #reading-container p {
+      color: #333;
+      line-height: 1.6;
+      padding-bottom: 20px; }
+    #main-body #reading-container .meta-like-comments {
+      padding: 10px 0 35px; }
+  #main-body .comments-container {
+    margin-right: 20px;
+    padding: 25px 0; }
+    #main-body .comments-container h4 {
+      color: #333;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    #main-body .comments-container .post-form {
+      margin-bottom: 20px;
+      position: relative; }
+      #main-body .comments-container .post-form img {
+        border-radius: 50%;
+        display: inline-block;
+        height: 45px;
+        left: 0;
+        margin-right: 10px;
+        position: relative;
+        width: 45px; }
+      #main-body .comments-container .post-form .input-group {
+        position: absolute;
+        right: 0;
+        top: 3px;
+        width: 90%; }
+    #main-body .comments-container .comments-list {
+      list-style: none;
+      margin: 0 0 20px 0; }
+      #main-body .comments-container .comments-list li {
+        border-bottom: 1px solid #eee;
+        padding: 20px 0; }
+        #main-body .comments-container .comments-list li img {
+          border-radius: 50%;
+          display: inline-block;
+          height: 45px;
+          margin-right: 10px;
+          margin-top: 10px;
+          width: 45px; }
+        #main-body .comments-container .comments-list li p {
+          color: #333;
+          display: inline-block;
+          line-height: 1.6;
+          padding-top: 5px;
+          vertical-align: top;
+          width: 90%; }
+    #main-body .comments-container .view-all {
+      color: #999;
+      cursor: pointer; }
+      #main-body .comments-container .view-all:hover {
+        color: #0076ff; }
+  #main-body #leaderboard {
+    background: white;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px; }
+    #main-body #leaderboard h3 {
+      color: #12162d;
+      font-size: 24px;
+      font-weight: 900; }
+    #main-body #leaderboard ul {
+      list-style: none;
+      margin: 0; }
+      #main-body #leaderboard ul .leaderboard-list {
+        border-top: 1px solid #ddd;
+        padding: 20px 0; }
+        #main-body #leaderboard ul .leaderboard-list .position {
+          color: #be1e2d;
+          font-size: 32px;
+          font-weight: 900px;
+          margin-right: 15px;
+          vertical-align: middle; }
+        #main-body #leaderboard ul .leaderboard-list img {
+          border-radius: 50%; }
+        #main-body #leaderboard ul .leaderboard-list .detail {
+          display: inline-block;
+          margin-left: 10px;
+          position: relative;
+          vertical-align: top; }
+          #main-body #leaderboard ul .leaderboard-list .detail .name {
+            color: #12162d; }
+          #main-body #leaderboard ul .leaderboard-list .detail .distance {
+            color: #999;
+            font-size: 20px;
+            font-weight: bold; }
+  #main-body #voting {
+    background: white;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px; }
+    #main-body #voting h3 {
+      border-bottom: 1px solid #ddd;
+      color: #12162d;
+      font-size: 24px;
+      font-weight: 900;
+      padding-bottom: 10px; }
+    #main-body #voting .intro {
+      margin: 10px 0; }
+    #main-body #voting figcaption {
+      background: none;
+      padding: 10px;
+      text-align: center; }
+      #main-body #voting figcaption .like-container {
+        list-style: none;
+        margin: 0; }
+        #main-body #voting figcaption .like-container li {
+          background: rgba(0, 0, 0, 0.5);
+          display: inline-block;
+          height: 32px;
+          margin-right: -3px; }
+          #main-body #voting figcaption .like-container li:first-child {
+            border-top-left-radius: 50%;
+            border-bottom-left-radius: 50%;
+            cursor: pointer;
+            padding: 2px 8px 2px 15px; }
+          #main-body #voting figcaption .like-container li:nth-child(2) {
+            background: #be1e2d;
+            padding: 5px;
+            vertical-align: top; }
+          #main-body #voting figcaption .like-container li:last-child {
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 50%;
+            cursor: pointer;
+            padding: 2px 15px 2px 8px; }
+        #main-body #voting figcaption .like-container .like {
+          background: url("../images/icon-like.png") 0px 0 no-repeat;
+          display: inline-block;
+          height: 25px;
+          width: 25px; }
+          #main-body #voting figcaption .like-container .like:hover {
+            background: url("../images/icon-like.png") -29px 0 no-repeat; }
+        #main-body #voting figcaption .like-container .dislike {
+          background: url("../images/icon-dislike.png") 0px 0 no-repeat;
+          display: inline-block;
+          height: 25px;
+          width: 25px; }
+          #main-body #voting figcaption .like-container .dislike:hover {
+            background: url("../images/icon-dislike.png") -29px 0 no-repeat; }
 
 .post-card {
   background: white;
@@ -170,94 +327,6 @@ body {
   .load-more .loader {
     height: 35px;
     width: 35px; }
-
-#leaderboard {
-  background: white;
-  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
-  padding: 20px; }
-  #leaderboard h3 {
-    color: #12162d;
-    font-size: 24px;
-    font-weight: 900; }
-  #leaderboard ul {
-    list-style: none;
-    margin: 0; }
-    #leaderboard ul .leaderboard-list {
-      border-top: 1px solid #ddd;
-      padding: 20px 0; }
-      #leaderboard ul .leaderboard-list .position {
-        color: #be1e2d;
-        font-size: 32px;
-        font-weight: 900px;
-        margin-right: 15px;
-        vertical-align: middle; }
-      #leaderboard ul .leaderboard-list img {
-        border-radius: 50%; }
-      #leaderboard ul .leaderboard-list .detail {
-        display: inline-block;
-        margin-left: 10px;
-        position: relative;
-        vertical-align: top; }
-        #leaderboard ul .leaderboard-list .detail .name {
-          color: #12162d; }
-        #leaderboard ul .leaderboard-list .detail .distance {
-          color: #999;
-          font-size: 20px;
-          font-weight: bold; }
-
-#voting {
-  background: white;
-  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-  padding: 20px; }
-  #voting h3 {
-    border-bottom: 1px solid #ddd;
-    color: #12162d;
-    font-size: 24px;
-    font-weight: 900;
-    padding-bottom: 10px; }
-  #voting .intro {
-    margin: 10px 0; }
-  #voting figcaption {
-    background: none;
-    padding: 10px;
-    text-align: center; }
-    #voting figcaption .like-container {
-      list-style: none;
-      margin: 0; }
-      #voting figcaption .like-container li {
-        background: rgba(0, 0, 0, 0.5);
-        display: inline-block;
-        height: 32px;
-        margin-right: -3px; }
-        #voting figcaption .like-container li:first-child {
-          border-top-left-radius: 50%;
-          border-bottom-left-radius: 50%;
-          cursor: pointer;
-          padding: 2px 8px 2px 15px; }
-        #voting figcaption .like-container li:nth-child(2) {
-          background: #be1e2d;
-          padding: 5px;
-          vertical-align: top; }
-        #voting figcaption .like-container li:last-child {
-          border-top-right-radius: 50%;
-          border-bottom-right-radius: 50%;
-          cursor: pointer;
-          padding: 2px 15px 2px 8px; }
-      #voting figcaption .like-container .like {
-        background: url("../images/icon-like.png") 0px 0 no-repeat;
-        display: inline-block;
-        height: 25px;
-        width: 25px; }
-        #voting figcaption .like-container .like:hover {
-          background: url("../images/icon-like.png") -29px 0 no-repeat; }
-      #voting figcaption .like-container .dislike {
-        background: url("../images/icon-dislike.png") 0px 0 no-repeat;
-        display: inline-block;
-        height: 25px;
-        width: 25px; }
-        #voting figcaption .like-container .dislike:hover {
-          background: url("../images/icon-dislike.png") -29px 0 no-repeat; }
 
 @media screen and (max-width: 39.9375em) {
   .top-bar-title {
