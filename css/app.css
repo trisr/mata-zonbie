@@ -30,15 +30,15 @@ body {
       box-shadow: 0 5px 0 0 #be1e2d; }
       .top-bar ul li.nav-menu:hover a {
         color: #be1e2d; }
-  .top-bar ul a {
-    font-size: 16px;
-    font-weight: 500;
-    height: 80px;
-    padding: 30px 25px;
-    text-align: center;
-    text-transform: uppercase; }
-    .top-bar ul a:hover {
-      color: #be1e2d; }
+.top-bar .top-bar-left a {
+  font-size: 16px;
+  font-weight: 500;
+  height: 80px;
+  padding: 30px 25px;
+  text-align: center;
+  text-transform: uppercase; }
+  .top-bar .top-bar-left a:hover {
+    color: #be1e2d; }
 .top-bar .top-bar-right li {
   padding: 20px; }
 .top-bar .top-bar-right input {
@@ -58,6 +58,8 @@ body {
   border-radius: 50%;
   border: 1px solid #ccc;
   padding: 5px; }
+.top-bar .top-bar-right a {
+  padding: 0; }
 
 #main-body {
   padding-bottom: 25px;
