@@ -435,6 +435,7 @@ body {
 .post-card {
   background: white;
   box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
+  margin-bottom: 20px;
   padding: 30px;
 
   h3 {
@@ -464,6 +465,17 @@ body {
     &:hover {
       color: $color-blue;
     }
+  }
+}
+
+.search-intro {
+  color: $color-light-black;
+  font-size: 18px;
+  text-align: center;
+  padding: 50px 0;
+
+  span {
+    color: $color-primary;
   }
 }
 
