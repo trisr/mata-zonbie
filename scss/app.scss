@@ -6,6 +6,7 @@ $color-light-blue: #009398;
 $color-red: #ea1e53;
 $color-orange: #ff9600;
 $color-black: #12162d;
+$color-light-black: #333;
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -178,7 +179,6 @@ body {
 
   #reading-container {
     border-bottom: 1px solid #ccc;
-    margin-right: 20px;
 
     .main-img {
       width: 100%;
@@ -200,7 +200,7 @@ body {
     }
 
     p {
-      color: #333;
+      color: $color-light-black;
       line-height: 1.6;
       padding-bottom: 20px;
     }
@@ -211,11 +211,10 @@ body {
   }
 
   .comments-container {
-    margin-right: 20px;
     padding: 25px 0;
 
     h4 {
-      color: #333;
+      color: $color-light-black;
       font-size: 18px;
       font-weight: bold;
       margin-bottom: 20px;
@@ -261,7 +260,7 @@ body {
         }
 
         p {
-          color: #333;
+          color: $color-light-black;
           display: inline-block;
           line-height: 1.6;
           padding-top: 5px;
@@ -278,6 +277,27 @@ body {
       &:hover {
         color: $color-blue;
       }
+    }
+  }
+
+  .recommended {
+    margin-top: 20px;
+
+    h4 {
+      color: $color-light-black;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      padding-left: 10px;
+    }
+
+    h3 {
+      color: $color-light-black;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.4;
+      margin-top: 10px;
+      margin-bottom: 25px;
     }
   }
 
@@ -482,7 +502,7 @@ body {
     }
 
     &:hover {
-      color: #333;
+      color: $color-light-black;
       .like {
         background: url('../images/icon-like.png') -29px 0 no-repeat;
       }
