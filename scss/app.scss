@@ -301,6 +301,44 @@ body {
     }
   }
 
+  #profile-container {
+    h4 {
+      border-bottom: 1px solid #d8d8d8;
+      color: $color-light-black;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+    }
+
+    .user-desc {
+      position: relative;
+      text-align: center;
+      margin-bottom: 50px;
+      margin-top: -80px;
+
+      .user-pic {
+        background: rgba(255,255,255,0.8);
+        border-radius: 50%;
+        height: 130px;
+        padding: 10px;
+        width: 130px;
+      }
+
+      h3 {
+        color: $color-light-black;
+        font-size: 24px;
+        font-weight: 500px;
+      }
+
+      p {
+        color: $color-secondary;
+        font-size: 16px;
+        line-height: 1.4;
+      }
+    }
+  }
+
   #leaderboard {
     background: white;
     box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
@@ -430,6 +468,13 @@ body {
       }
     }
   }
+}
+
+.user-bg {
+  background: url('http://lorempixel.com/1280/640/nature') 0 0 no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
 }
 
 .post-card {

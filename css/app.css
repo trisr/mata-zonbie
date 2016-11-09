@@ -186,6 +186,32 @@ body {
       line-height: 1.4;
       margin-top: 10px;
       margin-bottom: 25px; }
+  #main-body #profile-container h4 {
+    border-bottom: 1px solid #d8d8d8;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 10px; }
+  #main-body #profile-container .user-desc {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -80px; }
+    #main-body #profile-container .user-desc .user-pic {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 50%;
+      height: 130px;
+      padding: 10px;
+      width: 130px; }
+    #main-body #profile-container .user-desc h3 {
+      color: #333;
+      font-size: 24px;
+      font-weight: 500px; }
+    #main-body #profile-container .user-desc p {
+      color: #999;
+      font-size: 16px;
+      line-height: 1.4; }
   #main-body #leaderboard {
     background: white;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
@@ -272,6 +298,12 @@ body {
           width: 25px; }
           #main-body #voting figcaption .like-container .dislike:hover {
             background: url("../images/icon-dislike.png") -29px 0 no-repeat; }
+
+.user-bg {
+  background: url("http://lorempixel.com/1280/640/nature") 0 0 no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%; }
 
 .post-card {
   background: white;
