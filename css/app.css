@@ -32,7 +32,7 @@ body {
         color: #be1e2d; }
 .top-bar .top-bar-left a {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: bold;
   height: 80px;
   padding: 30px 25px;
   text-align: center;
@@ -383,6 +383,31 @@ body {
   .load-more .loader {
     height: 35px;
     width: 35px; }
+
+#modal-reveal {
+  padding: 50px; }
+  #modal-reveal .upload-photo {
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 300px;
+    max-height: 300px;
+    padding: 30% 0;
+    text-align: center; }
+    #modal-reveal .upload-photo .material-icons {
+      color: rgba(0, 0, 0, 0.25);
+      display: block;
+      font-size: 54px; }
+    #modal-reveal .upload-photo span {
+      color: rgba(0, 0, 0, 0.25);
+      font-size: 14px; }
+  #modal-reveal button.primary {
+    background-color: #be1e2d;
+    border-radius: 100px;
+    color: white;
+    float: right;
+    padding: 12px 30px;
+    text-transform: uppercase; }
 
 @media screen and (max-width: 39.9375em) {
   .top-bar-title {

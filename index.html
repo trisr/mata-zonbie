@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <div id="nav-bar" class="top-bar">
@@ -35,7 +36,7 @@
                 <input id="main-search" type="search" placeholder="Cari di Sini" />
               </li>
               <li>
-                <button class="button" type="button">Upload</button>
+                <a data-open="modal-reveal"><button class="button" type="button">Upload</button></a>
               </li>
               <li>
                 <a href="profile.html"><img src="images/icn-user.png" alt="icon-user" /></a>
@@ -155,6 +156,22 @@
                   <div class="distance">10.000 KM</div>
                 </div>
               </li>
+              <li class="leaderboard-list">
+                <span class="position">4</span>
+                <img src="http://lorempixel.com/50/50/people" />
+                <div class="detail">
+                  <div class="name">John Doe</div>
+                  <div class="distance">10.000 KM</div>
+                </div>
+              </li>
+              <li class="leaderboard-list">
+                <span class="position">5</span>
+                <img src="http://lorempixel.com/50/50/people" />
+                <div class="detail">
+                  <div class="name">John Doe</div>
+                  <div class="distance">10.000 KM</div>
+                </div>
+              </li>
             </ul>
           </div>
           <div id="voting">
@@ -203,6 +220,25 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="large reveal" id="modal-reveal" data-reveal>
+      <form class="row">
+        <div class="small-12 large-5 columns">
+          <div class="upload-photo">
+            <i class="material-icons">photo_camera</i>
+            <span>Ambil File Disini</span>
+          </div>
+        </div>
+        <div class="small-12 large-7 columns">
+          <input type="text" placeholder="Judul Posting">
+          <input type="text" placeholder="Kategori">
+          <textarea placeholder="Deskripsi" rows="7" cols="40"></textarea>
+          <button class="btn primary" type="button" name="button">Upload</button>
+        </div>
+      </form>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
 
     <script src="js/vendor/jquery.js"></script>
