@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <div id="nav-bar" class="top-bar">
@@ -96,6 +97,25 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="large reveal" id="modal-reveal" data-reveal>
+      <form class="row">
+        <div class="small-12 large-5 columns">
+          <div class="upload-photo">
+            <i class="material-icons">photo_camera</i>
+            <span>Ambil File Disini</span>
+          </div>
+        </div>
+        <div class="small-12 large-7 columns">
+          <input type="text" placeholder="Judul Posting">
+          <input type="text" placeholder="Kategori">
+          <textarea placeholder="Deskripsi" rows="7" cols="40"></textarea>
+          <button class="btn primary" type="button" name="button">Upload</button>
+        </div>
+      </form>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
 
     <script src="js/vendor/jquery.js"></script>

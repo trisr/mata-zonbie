@@ -302,8 +302,13 @@ body {
       font-size: 16px;
       font-weight: 500;
       line-height: 1.4;
-      margin-top: 10px;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+
+    .recommended-card {
+      background: white;
+      box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
     }
   }
 
@@ -597,7 +602,7 @@ body {
 
 #modal-reveal {
   padding: 50px;
-  
+
   .upload-photo {
     background: #f5f5f5;
     border: 1px solid #ccc;
