@@ -5,7 +5,10 @@ body {
   background: #fff;
   box-shadow: 0 1px 0 0 #ddd;
   height: 80px;
-  padding: 0; }
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99; }
   #nav-bar .nav-container {
     height: 100%; }
     @media screen and (min-width: 64em) {
@@ -63,7 +66,7 @@ body {
 
 #main-body {
   padding-bottom: 25px;
-  padding-top: 25px; }
+  padding-top: 105px; }
   #main-body #premium-content {
     padding-bottom: 50px; }
     #main-body #premium-content .content {
