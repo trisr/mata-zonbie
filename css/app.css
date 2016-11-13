@@ -423,9 +423,14 @@ body {
     height: initial; }
     #nav-bar .nav-container .nav-content {
       width: inherit; }
+    #nav-bar .nav-container strong {
+      padding: 5px 0; }
 
   .top-bar .top-bar-right input {
     width: 100%; }
+  .top-bar .top-bar-right li {
+    display: block;
+    padding: 10px 20px; }
 
   #main-body #premium-content .content {
     margin-bottom: 20px; } }

@@ -649,6 +649,10 @@ body {
       .nav-content {
         width: inherit;
       }
+
+      strong {
+        padding: 5px 0;
+      }
     }
   }
 
@@ -656,6 +660,11 @@ body {
     .top-bar-right {
       input {
         width: 100%;
+      }
+
+      li {
+        display: block;
+        padding: 10px 20px;
       }
     }
   }
